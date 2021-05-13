@@ -1,0 +1,40 @@
+   /*
+   Theme Name: Neve Child
+   Theme URI: https://www.themeisle.com/ 
+   Description: This is a custom child theme I have created.
+   Author: ThemeIsle
+   URI: https://www.themeisle.com/ 
+   Template: neve
+   Version: 0.1 
+   */
+
+/*1.*/
+div.row.row--wrapper{
+    background-color: red;
+}
+
+/*2.*/
+
+hfg-grid nv-footer-content hfg-grid-top row--wrapper row  {
+	background: black;
+}
+
+/*3.*/
+skip-lazy img {
+    width: auto;
+    max-height: 100px;
+}
+
+/*4.*/
+header-menu-sidebar-inner{
+    max-width: 50%
+}
+
+
+/*5.*/
+menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-106 current_page_item menu-item-128 {
+	color:red;
+}
+
+
+
